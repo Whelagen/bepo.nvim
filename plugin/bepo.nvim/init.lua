@@ -39,8 +39,20 @@ map('n', 'C', 'H') -- noremap C H
 map('n', 'R', 'L') -- noremap R L
 -- {TS} = « joindre / aide »
 map('n', 'T', 'J') -- noremap T J
-
 map('n', 'S', 'K') -- noremap S K
+
+-- {cr} = « gauche / droite »
+map('v', 'c', 'h') -- noremap c h
+map('v', 'r', 'l') -- noremap r l
+-- {ts} = « haut / bas »
+map('v', 't', 'j') -- noremap t j
+map('v', 's', 'k') -- noremap s k
+-- {CR} = « haut / bas de l'écran »
+-- map('v', 'C', 'H') -- noremap C H
+-- map('v', 'R', 'L') -- noremap R L
+-- -- {TS} = « joindre / aide »
+-- map('v', 'T', 'J') -- noremap T J
+-- map('v', 'S', 'K') -- noremap S K
 -- Corollaire : repli suivant / précédent
 map('n', 'zs', 'zj') -- noremap zs zj
 map('n', 'zt', 'zk') -- noremap zt zk
